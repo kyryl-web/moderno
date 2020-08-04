@@ -851,6 +851,9 @@
 }
 
 .tutorial__item {
+    &+&{
+        margin-left: 20px;
+    }
     &-images {
         min-height: 270px;
         background-repeat: no-repeat;
